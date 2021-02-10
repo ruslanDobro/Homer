@@ -17,7 +17,4 @@ public class Locators {
     protected By getServicePlanSideWindow(String planName) {
         return By.xpath("//*[contains(@class,'bot-cart-info-side')]//*[contains(text(),'"+planName+"')]");
     }
-
-    //protected By servicePlanSideWindow = By.xpath("//*[contains(@class,'bot-cart-info-side')]//*[contains(text(),'Annual Plan')]");
-
 }
